@@ -1,9 +1,28 @@
 @media screen and (max-width:36rem){
+    /* NAVBAR RESPONSIVE START FROM HERE */
     .link-container{
         display: none;
     }
     #humbarger-menu{
         color: var(--whiteColor);
         display: block;
+    }
+    /* BANNER RESPONSIVE START FROM HERE */
+    .banner{
+        flex-direction: column;
+        align-content: center;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-image{
+        width: 100%;
+    }.freeWorkOut{    
+        top: 800px;
+        right: 56px;
+    }
+    #freeWorkOut2{
+        top: 1050px;
+        right: 306px;
     }
 }
