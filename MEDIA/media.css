@@ -29,11 +29,27 @@
     }
     /* HABITS SECTION RESPONSIVE START FROM HERE */
     .habit-boxs{
-        display: grid;
         grid-template-columns: repeat(1, minmax(230px, 1fr));
-        gap: 2.5rem;
-        text-align: center;
-        border: 2px solid gold;
-        margin-top: 3rem;
     }
+    
+    .run-section-box{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .run-content{
+        width: 100%;
+    }
+    .run-img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:992px){
+    .habit-boxs{
+        grid-template-columns: repeat(4, minmax(130px, 1fr));
+        gap: 1.5rem;
+    }
+
 }

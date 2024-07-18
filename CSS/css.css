@@ -26,7 +26,7 @@
 
 /* COMMON SECTION STYLE START FROM HERE */
 body{
-    background-color: rgb(36, 24, 24);
+    background-color: black;
 }
 .common-section-style{
     max-width: 90%;
@@ -142,7 +142,7 @@ nav .nav-links, .nav-item, .nav-link{
 } 
 
 
-/*.......... HABITS SECTION STYLE START FROM HERE............ */
+
 .habit-content{
     text-align: center;
 }
@@ -153,7 +153,7 @@ nav .nav-links, .nav-item, .nav-link{
     margin: 0;
 }
 .habit-content-description{
-    color: var(--whiteColor);
+    color: #3f4140;
     font-weight: var(--fontWeightRegular);
     font-size: 1rem;
     font-family: var(--inter-font-family);
@@ -179,6 +179,69 @@ nav .nav-links, .nav-item, .nav-link{
 .habit-box-description{
     font-size:0.875rem;
     margin-top: 6px;
-    color: var(--whiteColor);
+    color: #3f4140;
     font-weight: var(--fontWeightRegular);
+}
+
+
+/*.......... RUN SECTION STYLE START FROM HERE............ */
+.run-section-boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.run-section-box{
+    padding: 30px 40px;
+    display: flex;
+    gap: 30px;
+    background-color:var(--backgroundColor);
+    justify-content: space-between;
+    align-items: center;
+
+}
+.run-content{
+    width: 45%;
+}
+.run-img{
+    width: 45%;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.run-content-title{
+    color: var(--whiteColor);
+    font-weight: var(--fontWeightBlack);
+    font-size: 3rem;
+    margin: 0;
+}
+.run-content-description{
+    color: #3f4140;
+    font-weight:var(--fontWeightRegular);
+    font-size: 1rem;
+    margin: 1.5rem auto;
+}
+
+/*.......... BMI CALCULATOR SECTION STYLE START FROM HERE............ */
+.bmi-calculator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bmi-calculator-content-box{
+    max-width:550px;
+}
+.bmi-calculator-title{
+    color: var(--whiteColor);
+    font-weight: var(--fontWeightBlack);
+    font-size: 3rem;
+    margin: 0;
+}
+.bmi-calculator-description{
+    color: #3f4140;
+    font-weight: var(--fontWeightRegular);
+    font-size: 1rem;
+    margin: 14px 0;
 }
