@@ -144,7 +144,6 @@ nav .nav-links, .nav-item, .nav-link{
 
 /*.......... HABITS SECTION STYLE START FROM HERE............ */
 .habit-content{
-    border: 1px solid white;
     text-align: center;
 }
 .habit-content-title{
@@ -165,11 +164,7 @@ nav .nav-links, .nav-item, .nav-link{
     grid-template-columns: repeat(4, minmax(230px, 1fr));
     gap: 2.5rem;
     text-align: center;
-    border: 2px solid gold;
     margin-top: 3rem;
-}
-.habit-box{
-    border: 2px solid rgb(11, 4, 143);
 }
 .habit-box-img{
     border-radius: 100%;
