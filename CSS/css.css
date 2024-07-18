@@ -140,3 +140,50 @@ nav .nav-links, .nav-item, .nav-link{
 .freeWorkOut div h1, p{
     margin: 0;
 } 
+
+
+/*.......... HABITS SECTION STYLE START FROM HERE............ */
+.habit-content{
+    border: 1px solid white;
+    text-align: center;
+}
+.habit-content-title{
+    color: var(--whiteColor);
+    font-weight: var(--fontWeightBlack);
+    font-size: 3rem;
+    margin: 0;
+}
+.habit-content-description{
+    color: var(--whiteColor);
+    font-weight: var(--fontWeightRegular);
+    font-size: 1rem;
+    font-family: var(--inter-font-family);
+    margin: 12px auto;
+}
+.habit-boxs{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(230px, 1fr));
+    gap: 2.5rem;
+    text-align: center;
+    border: 2px solid gold;
+    margin-top: 3rem;
+}
+.habit-box{
+    border: 2px solid rgb(11, 4, 143);
+}
+.habit-box-img{
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+.habit-box-title{
+    margin: 0;
+    font-size: var(1rem);
+    color: var(--whiteColor);
+    font-weight: var(--fontWeightSemiBold);
+}
+.habit-box-description{
+    font-size:0.875rem;
+    margin-top: 6px;
+    color: var(--whiteColor);
+    font-weight: var(--fontWeightRegular);
+}
