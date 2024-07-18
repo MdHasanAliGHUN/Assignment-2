@@ -44,6 +44,19 @@
     .run-img{
         width: 100%;
     }
+
+
+    /* HABITS SECTION RESPONSIVE START FROM HERE */
+    .bmi-calculator-boxs{
+        flex-direction: column;
+    }
+    .bmi-calculator-left-box{
+        width: 90%;
+    }
+    .bmi-calculator-right-box{
+        width: 90%;
+    }
+    
 }
 
 @media screen and (min-width:992px){
