@@ -1,0 +1,22 @@
+/* CSS TEXT COLOR VARIABLE  */
+:root{
+    --redColor:#E6533C;
+    --whiteColor:#ffffff;
+    --blackColor:#000000;
+}
+/* CSS BACKGROUND COLOR VARIABLE  */
+:root{
+    --backgroundColor:#222222;
+}
+/*......... CSS FONT-FAMILY..........*/
+:root{
+    --inter-font-family: "Inter", sans-serif;
+    --maima-font-family: "Rubik", sans-serif;
+}
+/*......... CSS FONT-WEIGHT..........*/
+:root{
+    --fontWeightRegular:400;
+    --fontWeightSemiBold:600;
+    --fontWeightExtraBold:800;
+    --fontWeightBlack:900;
+}
