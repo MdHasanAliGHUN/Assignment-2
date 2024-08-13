@@ -1,0 +1,90 @@
+/* CSS TEXT COLOR VARIABLE  */
+:root{
+    --redColor:#E6533C;
+    --whiteColor:#ffffff;
+    --blackColor:#000000;
+}
+/* CSS BACKGROUND COLOR VARIABLE  */
+:root{
+    --backgroundColor:#222222;
+}
+/*......... CSS FONT-FAMILY..........*/
+:root{
+    --inter-font-family: "Inter", sans-serif;
+    --maima-font-family: "Rubik", sans-serif;
+}
+/*......... CSS FONT-WEIGHT..........*/
+:root{
+    --fontWeightRegular:400;
+    --fontWeightSemiBold:600;
+    --fontWeightExtraBold:800;
+    --fontWeightBlack:900;
+}
+
+
+
+
+/* COMMON SECTION STYLE START FROM HERE */
+body{
+    background-color: black;
+}
+.common-section-style{
+    max-width: 90%;
+    margin: 3rem auto;
+    font-family: var(--inter-font-family);
+}
+
+
+
+/* COMMON BUTTON STYLE START FROM HERE */
+.common-btn{
+    color:var(--whiteColor);
+    background-color: var(--redColor);
+    font-weight: var(--fontWeightSemiBold);
+    font-size: 1.25rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+    border-radius: 100px;
+}
+/*.......... NAVBAR STYLE START FROM HERE............ */
+.nav-brand{
+    font-size: 2rem;
+    font-weight: var(--fontWeightExtraBold);
+    font-style: italic;
+    color: var(--redColor);
+}
+nav{
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+#humbarger-menu{
+    color: var(--whiteColor);
+    font-size: 3rem;
+    font-weight: var(--fontWeightBlack);
+    display: none;
+}
+nav .nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+nav .nav-links, .nav-item{
+    list-style: none;
+}
+nav .nav-links, .nav-item, .nav-link{
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: var(--fontWeightRegular);
+    color: var(--whiteColor);
+}
+#active-link{
+    background-color: var(--redColor);
+    padding: 5px 10px;
+    border-radius: 100px;
+}
