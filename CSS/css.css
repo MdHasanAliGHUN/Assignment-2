@@ -309,3 +309,28 @@ table, th, td {
     height: 100%;
     border-radius: 7px;
 }
+
+/*.......... Footer SECTION STYLE START FROM HERE............ */
+footer{
+    background-color: var(--backgroundColor);
+    padding: 10px 0;
+}
+.footer-boxs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.footer-section-box h2{
+    color: white;
+}
+.footer-section-box p{
+    color:#3f4140;
+    margin-top: 12px;
+}
+.hr{
+    color: var(--whiteColor);
+}
+.copyright{
+    text-align: center;
+    color: var(--whiteColor);
+}
