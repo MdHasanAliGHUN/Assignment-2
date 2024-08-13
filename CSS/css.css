@@ -88,3 +88,49 @@ nav .nav-links, .nav-item, .nav-link{
     padding: 5px 10px;
     border-radius: 100px;
 }
+/*.......... BANNER STYLE START FROM HERE............ */
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.banner-title{
+    font-weight: var(--fontWeightBlack);
+    color: var(--whiteColor); 
+    font-size: 4.5rem;
+    margin: 0;
+}
+.banner-description{
+    color: #3f4140;
+    font-size: 1rem;
+    margin: 3rem auto;
+    font-weight: var(--fontWeightRegular);
+}
+.banner-btn1{
+    background-color: var(--redColor);
+}
+.banner-btn2{
+    background-color:transparent;
+    border: 1px solid var(--whiteColor);
+}
+.freeWorkOut{
+    position: absolute;     
+    top: 353px;
+    right: 56px;
+    display: flex;
+    width: 200px;
+    padding: 10px 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: var(--whiteColor);
+    background-color: var(--backgroundColor);
+}
+#freeWorkOut2{
+    position: absolute;
+    top: 571px;
+    right: 306px;
+}
+.freeWorkOut div h1, p{
+    margin: 0;
+} 
