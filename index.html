@@ -108,12 +108,64 @@
                 </div>
             </div>
         </section>
-        
+
          <!-- BMI CALCULATOR SECTION START FROM HERE -->
          <section class="bmi-calculator common-section-style">
             <div class="bmi-calculator-content-box">
                 <h1 class="bmi-calculator-title">BMI Calculator</h1>
                 <p class="bmi-calculator-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+        </section>
+        
+        <!-- BMI CALCULATOR CHART SECTION START FROM HERE -->
+        <section class="bmi-calculator-chart-section">
+            <div class="bmi-calculator-boxs common-section-style">
+                <div class="bmi-calculator-left-box">
+                    <h1 class="bmi-calculator-left-box-title">BMI Calculator Chart</h1>
+                    <table>
+                        <tr>
+                            <th>BMI </th>
+                            <th>Weight Status</th>
+                        </tr>
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td>Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>25.0 - 29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0 - and Above</td>
+                            <td>Obese</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="bmi-calculator-right-box">
+                    <h1 class="calculator-right-box-title">Calculate your BMI</h1>
+                    <p class="calculator-right-box-discription">We believe fitness should be accessible to everyone, everywhere,
+                        <br> regardless of income or access to a gym. </p>
+                    <div class="input-box">
+                        <input type="text" class="input" placeholder="Height/cm">
+                        <input type="text" class="input" placeholder="Weoght/cm"><br>
+                        <input type="number" class="input" placeholder="Age">
+                        <select name="select" id="select" class="input">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select><br>
+                        <select name="select" id="activity" class="input" >
+                            <option value="Student">Student</option>
+                            <option value="Teacher">Teacher</option>
+                            <option value="Programmer">Programmer</option>
+                        </select>
+                        <button class="banner-btn1 common-btn">Calculate</button>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
