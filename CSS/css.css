@@ -215,3 +215,25 @@ nav .nav-links, .nav-item, .nav-link{
     font-size: 1rem;
     margin: 1.5rem auto;
 }
+
+/*.......BMI CALCULATOR SECTION STYLE START FROM HERE............ */
+.bmi-calculator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bmi-calculator-content-box{
+    max-width:550px;
+}
+.bmi-calculator-title{
+    color: var(--whiteColor);
+    font-weight: var(--fontWeightBlack);
+    font-size: 3rem;
+    margin: 0;
+}
+.bmi-calculator-description, .calculator-right-box-discription{
+    color: #3f4140;
+    font-weight: var(--fontWeightRegular);
+    font-size: 1rem;
+    margin: 14px 0;
+}
