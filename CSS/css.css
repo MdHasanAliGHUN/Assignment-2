@@ -175,3 +175,43 @@ nav .nav-links, .nav-item, .nav-link{
     color: #3f4140;
     font-weight: var(--fontWeightRegular);
 }
+/*.......... RUN SECTION STYLE START FROM HERE............ */
+.run-section-boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.run-section-box{
+    padding: 30px 40px;
+    display: flex;
+    gap: 30px;
+    background-color:var(--backgroundColor);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.run-content{
+    width: 45%;
+}
+.run-img{
+    width: 45%;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.run-content-title{
+    color: var(--whiteColor);
+    font-weight: var(--fontWeightBlack);
+    font-size: 3rem;
+    margin: 0;
+}
+.run-content-description, .meet-our-team-description{
+    color: #3f4140;
+    font-weight:var(--fontWeightRegular);
+    font-size: 1rem;
+    margin: 1.5rem auto;
+}
