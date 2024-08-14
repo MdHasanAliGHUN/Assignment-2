@@ -63,11 +63,19 @@
         justify-items: center;
         gap: 30px;
     }
-
-    /* FOOTER SECTION STYLE START FROM HERE */
-    
+    /* Transformation section style start from here */   
+    .transformation-boxes{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    /* Footer section start from here */
     .footer-boxs{
         flex-direction: column;
+    }
+    .footer-boxs{
+        text-align: center;
     }
 }
 

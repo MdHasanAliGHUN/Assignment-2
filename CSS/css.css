@@ -310,6 +310,59 @@ table, th, td {
     border-radius: 7px;
 }
 
+/*.......... TRANSFORMATION SECTION STYLE START FROM HERE............ */
+.transformation-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.transformation-content {
+    margin-bottom: 20px;
+}
+
+.transformation-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.transformation-description {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.transformation-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.transformation-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.transformation-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.transformation-name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.transformation-story {
+    font-size: 1em;
+    color: #333;
+}
+
 /*.......... Footer SECTION STYLE START FROM HERE............ */
 footer{
     background-color: var(--backgroundColor);
