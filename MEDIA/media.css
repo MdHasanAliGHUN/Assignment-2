@@ -1,0 +1,88 @@
+@media screen and (max-width:36rem){
+    /* NAVBAR RESPONSIVE START FROM HERE */
+    .link-container{
+        display: none;
+    }
+    #humbarger-menu{
+        color: var(--whiteColor);
+        display: block;
+    }
+
+
+    /* BANNER RESPONSIVE START FROM HERE */
+    .banner{
+        flex-direction: column;
+        align-content: center;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-image{
+        width: 100%;
+    }.freeWorkOut{    
+        top: 800px;
+        right: 56px;
+    }
+    #freeWorkOut2{
+        top: 1050px;
+        right: 306px;
+    }
+    /* HABITS SECTION RESPONSIVE START FROM HERE */
+    .habit-boxs{
+        grid-template-columns: repeat(1, minmax(230px, 1fr));
+    }
+    
+    .run-section-box{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .run-content{
+        width: 100%;
+    }
+    .run-img{
+        width: 100%;
+    }
+
+
+    /* BMI SECTION RESPONSIVE START FROM HERE */
+    .bmi-calculator-boxs{
+        flex-direction: column;
+    }
+    .bmi-calculator-left-box{
+        width: 100%;
+    }
+    .bmi-calculator-right-box{
+        width: 100%;
+    }
+
+    /*.......... MEET OUR TEAMS SECTION STYLE START FROM HERE............ */
+    .team-boxs{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 30px;
+    }
+
+    /* FOOTER SECTION STYLE START FROM HERE */
+    
+    .footer-boxs{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:992px){
+    .habit-boxs{
+        grid-template-columns: repeat(4, minmax(130px, 1fr));
+        gap: 1.5rem;
+    }  
+    /*.......... MEET OUR TEAMS SECTION STYLE START FROM HERE............ */
+   
+    .team-boxs{
+        display: grid;
+        grid-gap: 20px;
+        justify-items: center;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
